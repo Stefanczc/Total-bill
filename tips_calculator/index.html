@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips calculator</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+
+    <div class="tips-container">
+        <h2 class="tips-container__title">Tips calculator</h2>
+        <h3 class="tips-container__description">Calculate the total amount of money spent</h3>
+        <label class="tips-container__label" for="number">My bill</label>
+        <input class="tips-container__input" type="number" name="bill" id="bill">
+        <label class="tips-container__label" for="tips">Tip percentage</label>
+        <input class="tips-container__input" type="number" name="tips" id="tips">
+        <button class="tips-container__button" id="result-btn">Calculate</button>
+        <p>I have to pay the following amount: <span class="tips-container__result" id="result-text"></span></p>
+
+    </div>
+
+</body>
+
+</html>

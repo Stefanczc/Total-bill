@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+}
+
+.tips-container {
+  background: linear-gradient(to top, #000428, #004e92);
+  border-radius: 10px;
+  padding: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.tips-container__title {
+  margin-bottom: 15px;
+  font-size: 42px;
+  text-align: center;
+}
+.tips-container__description {
+  margin-bottom: 15px;
+}
+.tips-container__label, .tips-container__input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.tips-container__label {
+  font-size: 18px;
+}
+.tips-container__input {
+  font-size: 24px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.tips-container__button {
+  margin: 15px 0;
+  padding: 7.5px;
+  background: linear-gradient(to right, #c02425, #f0cb35);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.tips-container__button:hover {
+  scale: 1.2;
+  font-size: 24px;
+}
+.tips-container__result {
+  border-bottom: 1px solid white;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 32px;
+}/*# sourceMappingURL=index.css.map */
